@@ -1,0 +1,69 @@
+.back_button {
+  background-color: #ecae67;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  /* display: flex; */
+  /* margin: auto; */
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: cloud;
+  font-size: 20px;
+}
+.back_button_position {
+  position: fixed;
+  bottom: 25px;
+  right: 15px;
+}
+.tab {
+  margin-top: 10px;
+}
+.square_button {
+  height: 125px;
+  width: 125px;
+  border-radius: 10%;
+  border: 4px solid #ecae67;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.shoppingmenu_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: cloud;
+  color: #3c9c7d;
+  font-size: 20px;
+  font-weight: 600;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* .header{
+  font-family: Bahnschrift;
+  padding: 0px;
+  text-align: center;
+  background: #3c9c7d;
+  color: #ecae67;
+  font-size: 30px;
+}
+
+/* .striped-border { 
+  border: 1px 
+  dashed #000;
+  width: 50%; 
+  margin: auto; } */
+
+.line {
+  border: 1px solid red;
+}

@@ -1,0 +1,93 @@
+.back_button {
+  background-color: #ecae67;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  text-align: center;
+  /* display: flex; */
+  /* margin: auto; */
+  cursor: pointer;
+  border-radius: 30px;
+  font-family: cloud;
+  font-size: 20px;
+}
+.back_button_position {
+  position: fixed;
+  bottom: 25px;
+  right: 15px;
+}
+.ad_pic{
+  width: 340px;
+  height: 250px;
+  margin-top: 15px;
+  background-color:#C93939;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: cloud;
+  color: white;
+  
+}
+.mainbox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+  height: 350px;
+  border: 3px solid #ECAE67;
+  border-radius: 30px;
+  margin-top: 15px;
+  }
+.condition_box{
+  width: 120px;
+  height: 45px;
+  background-color: #ECAE67;
+  border-radius: 30px;
+  font-family: cloud;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;    
+  margin-bottom: 10px;
+}
+.textbox{
+  width : 340px;
+  height : 260px;
+  border: 3px solid none;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: TH sarabun new;
+  font-size: 18px;
+  color: black;
+}
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.viewmore-button{
+width: 100px;
+height: 40px;
+background-color: #ECAE67;
+font-family: cloud;
+font-size: 16px;
+color: white;
+border-radius: 30px;
+border-color: #ECAE67;
+border: none;
+cursor: pointer;
+position: absolute;
+bottom: 55px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}

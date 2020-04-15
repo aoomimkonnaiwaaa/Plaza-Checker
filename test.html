@@ -1,0 +1,9 @@
+<p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;"></p>
+<p><label for="file" style="cursor: pointer;"><img class="upload-btn" src="/statics/img/upload_button.png"></label></p>
+<!-- <img class="upload-btn" src="/statics/img/upload_button.png" for="file" style="cursor: pointer;" width=" 19%"> -->
+<script>
+  var loadFile = function (event) {
+    var image = document.getElementById('output');
+    image.src = URL.createObjectURL(event.target.files[0]);
+  };
+</script>

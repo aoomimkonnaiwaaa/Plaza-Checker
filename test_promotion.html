@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plaza Checker</title>
+    <!-- <link rel="stylesheet" type="text/css" href="/assets/css/mainmenu_page.css"> -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/test_promotion.css">
+
+</head>
+
+<body>
+    <!-- <div class=header>
+        <div class="plaza">
+            <u>PLAZA</u>
+        </div>
+        <div class=checker>
+            <p>CHECKER</p>
+        </div>
+    </div>
+    </section>
+    <div class="fontflex-container">
+        <div class="font">
+            <p>Good Afternoon! (Username)</p>
+        </div>
+    </div>
+    <section>
+        <div class="flex-container">
+            <div class="menu_button">
+                <div class="round_button" onclick="location.href = 'parking_page.html'">
+                    <img src="/statics/img/parking_icon.png" width="65%">
+                </div>
+                <caption>
+                    Parking
+                </caption>
+            </div>
+
+            <div class="menu_button">
+                <div class="round_button" onclick="location.href = 'shopping_page.html'">
+                    <img src="/statics/img/shopping_icon.png" width="50%">
+                </div>
+                <caption>
+                    Shopping
+                </caption>
+            </div>
+
+        </div> -->
+
+    <!-- <div class="flex-container">
+        <div class="flex-container">
+            <div class="menu_button">
+                <div class="round_button" onclick="location.href = 'promotion_page.html'">
+                    <img src="/statics/img/promotion_icon.png" width="65%">
+                </div>
+                <caption>
+                    Promotion
+                </caption>
+            </div>
+            <div class="menu_button">
+                <div class="round_button" onclick="location.href = 'emergencycall_page.html'">
+                    <img src="/statics/img/emergencycall_icon.png" width="65%">
+                </div>
+                <div>
+                    <caption>
+                        Emergency Call
+                    </caption>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="/statics/img/ad_big_preview.png" style="width:93%" style="z-index: -1;">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="/statics/img/ad_big_preview.png" style="width:93%" style="z-index: -1;">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="/statics/img/ad_big_preview.png" style="width:93%" style="z-index: -1;">
+        </div>
+
+    </div>
+    <br>
+
+    <div class="all-dot" style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+
+    <!-- <div class="footer" style="z-index: -1;"></div> -->
+
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2500); // Change image every 2 seconds
+        }
+    </script>
+</body>
+
+</html>

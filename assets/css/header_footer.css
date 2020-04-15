@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: white;
+  }
+.header{
+    text-align: center;
+    /* font-family: cloud; */
+    background-color: #3c9c7d;
+    /* font-size: 20px; */
+}
+.plaza{
+    padding-top: 15px;
+    font-size: 40px;
+    font-family: Bahnschrift;
+    color: #ecae67;
+}
+.checker{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: Bahnschrift;
+    color:#ecae67 ;
+    padding-bottom: 20px;
+}
+.footer{
+position: fixed;
+width: 100%;
+background-color: #3c9c7d;
+padding-top: 50px;
+bottom: 0px;
+}
+

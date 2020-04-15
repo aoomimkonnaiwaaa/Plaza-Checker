@@ -1,0 +1,112 @@
+.back_button {
+    background-color: #ecae67;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    /* display: flex; */
+    /* margin: auto; */
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: cloud;
+    font-size: 20px;
+  }
+  .back_button_position {
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+  }
+  .map-area{
+    width: 350px;
+    height: 320px;
+    background-color: #C93939;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    font-family: cloud;
+    font-size: 20px;
+    color: white;
+}   
+    .map-area-flex{
+    display: flex;
+    justify-content: center;
+}
+    .main-box{
+        position: relative;
+    width: 340px;
+    height: 280px;
+    border: 3px solid #ecae67;
+    border-radius: 30px;
+    
+    }
+    .main-box-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .memo-box{
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    background-color: #ECAE67;
+    border-radius: 30px;
+    font-family: cloud;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+    }
+
+    .notes {
+    position: absolute;
+    background-attachment: local;
+    background-image:
+    linear-gradient(to right, white 10px, transparent 10px),
+    linear-gradient(to left, white 10px, transparent 10px),
+    repeating-linear-gradient(white, white 30px, #ECAE67 30px, #ECAE67 31px, white 31px);
+    border: none;
+    line-height: 30px;
+    padding: 10px 10px;
+    margin-top: 60px;
+    font-family: cloud;
+    font-size: 18px;
+    width: 320px;
+    height: 180px ;
+    }
+
+.save-btn{
+    position: absolute;
+    margin-top: 225px;
+    background-color: #3C9C7D;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: cloud;
+    font-size: 20px;
+    margin-left: 110px;
+
+}
+.clear-btn{
+    position: absolute;
+    margin-top: 225px;
+    background-color: #3C9C7D;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: cloud;
+    font-size: 20px; 
+    margin-left: 20px;
+
+}
