@@ -56,9 +56,10 @@
           border: 3px solid none;
           display: flex; 
           padding-left: 20px;
-          justify-content: left;
+          /* justify-content: left; */
           align-items: center;
-          margin-bottom: 10px;
+          /* margin-bottom: 10px; */
+          flex-direction: column;
           
         }
         .img-icon{

@@ -43,19 +43,47 @@
     <div class="input-icon">
       <img src="/statics/img/email_icon.png" width="40%">
     </div>
-    <input type="text" placeholder="๊Email" />
+    <input type="text" placeholder="๊Email" name="email" required id="email" value="" />
   </div>
   <div class="input-group">
     <div class="input-icon">
       <img src="/statics/img/password_icon.png" width="40%">
     </div>
-    <input type="text" placeholder="๊Password" />
+    <input type="text" placeholder="๊Password" name="password" required id="password" value="" />
   </div>
   <section class="register">
     <a href="register_page.html">Create Your Account</a>
+    <script>
+      var name = document.getElementById('email');
+      var pw = document.getElementById('password');
+
+      // storing input from register-form
+      function store() {
+        localStorage.setItem('email', name.value);
+        localStorage.setItem('password', pw.value);
+      }
+
+      // check if stored data from register-form is equal to entered data in the   login-form
+      function check() {
+
+        // entered data from the login-form
+        var userName = document.getElementById('email');
+        var userPw = document.getElementById('password');
+
+        // check if stored data from register-form is equal to data from login form
+        if (userName.value !== storedName || userPw.value !== storedPw) {
+          alert('ERROR');
+        } else {
+          alert('You are loged in.');
+        }
+
+      }
+    </script>
   </section>
 
-  <form action="mainmenu_page.html"><button type="submit" class="button">Login</button></form>
+  <form action="mainmenu_page.html">
+    <button type="submit" class="button" id="login_btn" value="get Account">Login</button>
+  </form>
   <div class="footer" style="z-index: -1;"></div>
 </body>
 

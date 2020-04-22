@@ -24,30 +24,59 @@
         <div class="input-icon">
             <img src="/statics/img/username_icon.png" width="40%">
         </div>
-        <input type="text" placeholder="๊Username" />
+        <input type="text" placeholder="Username" name="username" required id="username" value="" />
     </div>
     <div class="input-group">
         <div class="input-icon">
             <img src="/statics/img/phonenum_icon.png" width="40%">
         </div>
-        <input type="text" placeholder="๊Phone Number" />
+        <input type="text" placeholder="๊Phone Number" name="phonenum" required id="phonenum" value="" />
     </div>
     <div class="input-group">
 
         <div class="input-icon">
             <img src="/statics/img/email_icon.png" width="40%">
         </div>
-        <input type="text" placeholder="๊Email" style="color: blues;" />
+        <input type="text" placeholder="๊Email" name="email" required id="email" value="" />
     </div>
     <div class="input-group">
 
         <div class="input-icon">
             <img src="/statics/img/password_icon.png" width="40%">
         </div>
-        <input type="text" placeholder="๊Password" />
+        <input type="text" placeholder="๊Password" name="password" required id="password" value="" />
     </div>
-    <form action="login_page.html"><button class="button">Register</button></form>
+    <form action="login_page.html"><button class="button" input id="login_btn" type="submit" value="Login"
+            onClick="check()">Register</button></form>
+    <script>
+        var name = document.getElementById('email');
+        var pw = document.getElementById('password');
 
+        // storing input from register-form
+        function store() {
+            localStorage.setItem('email', name.value);
+            localStorage.setItem('password', pw.value);
+        }
+
+        // check if stored data from register-form is equal to entered data in the   login-form
+        function check() {
+
+            // stored data from the register-form
+            var storedName = localStorage.getItem('email');
+            var storedPw = localStorage.getItem('password');
+
+            // entered data from the login-form
+            var userName = document.getElementById('email');
+            var userPw = document.getElementById('password');
+
+            // check if stored data from register-form is equal to data from login form
+            if (userName.value !== storedName || userPw.value !== storedPw) {
+                alert('ERROR');
+            } else {
+                alert('You are loged in.');
+            }
+        }
+    </script>
     <section class="footer">
         <footer><img src="/statics/img/footer.jpg" width="100%"></footer>
     </section>

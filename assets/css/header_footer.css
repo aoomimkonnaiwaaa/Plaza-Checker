@@ -33,3 +33,11 @@ padding-top: 50px;
 bottom: 0px;
 }
 
+@font-face {
+    font-family: Bahnschrift;
+    src: url(/statics/font/BAHNSCHRIFT\ 1.woff);
+  }
+
+  div {
+    font-family: Bahnschrift;
+  }

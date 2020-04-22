@@ -1,0 +1,139 @@
+.back_button {
+    background-color: #ecae67;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    /* display: flex; */
+    /* margin: auto; */
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: cloud;
+    font-size: 20px;
+  }
+  .back_button_position {
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+  }
+ .logo{
+  width: 100px;
+  height: 100px;
+  background-color : green;
+  display:flex;
+  align-items : center;
+  justify-content : center;
+   margin-top : 25px;
+ margin-left : 20px
+}
+.name-box{
+  width: 120px;
+  height: 45px;
+  background-color :#ecae67;
+  display:flex;
+  align-items : center;
+  justify-content : center;
+  margin-top : 25px;
+  margin-left : 50px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: cloud;
+  color: white;
+}
+.name-logo-container{
+ display:flex ;
+ align-items : center;
+ justify-content :  center ;
+}
+.main-top-box{
+ width: 375px;
+ height: 150px;
+ border: 3px solidn none;
+}
+.main-picture{
+  width: 340px;
+  height: 230px;
+  background-color : #C93939;
+  display:flex;
+  align-items : center;
+  justify-content : center;
+  font-family: cloud;
+  font-size: 20px;
+  color: white;
+}
+.small-picture{
+  width: 77px;
+  height: 77px;
+  background-color : #C93939;
+  display:flex;
+  align-items : center;
+  justify-content : center;
+  font-family: cloud;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.main-picture-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.small-pic-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.detail-box{
+  width: 120px;
+  height: 45px;
+  background-color: #ECAE67;
+  border-radius: 30px;
+  font-family: cloud;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;    
+  margin-bottom: 10px;
+}
+.textbox{
+  width : 250px;
+  height : 100px;
+  border: 3px solid none;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  font-family: TH sarabun new;
+  font-size: 18px;
+  color: black;
+}
+.detail-flex-container{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-code{
+  background-color: #C93939;
+  width: 80px;
+  height: 80px;
+  display:flex;
+  align-items : center;
+  justify-content : center;
+}
