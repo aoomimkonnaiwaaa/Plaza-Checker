@@ -6,3 +6,12 @@
 div {
   font-family: cloud;
 }
+
+@font-face {
+  font-family: TH sarabun new;
+  src: url(/statics/font/thsarabunnew-webfont.woff);
+}
+
+div {
+  font-family: TH sarabun new;
+}
