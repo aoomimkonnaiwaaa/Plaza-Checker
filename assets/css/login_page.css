@@ -79,3 +79,11 @@ input{
   color: #ECAE67;
   margin-top: 60px;
 }
+@font-face {
+  font-family: Bahnschrift;
+  src: url(/statics/font/Cloud-Light.woff);
+}
+
+div {
+  font-family: Cloud;
+}
