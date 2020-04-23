@@ -41,3 +41,19 @@ bottom: 0px;
   div {
     font-family: Bahnschrift;
   }
+
+  .register{
+    font-family: cloud;
+    font-size: 18px;
+    text-align: center;
+    color: #ECAE67;
+    margin-top: 60px;
+  }
+  @font-face {
+    font-family: cloud;
+    src: url(/statics/font/Cloud-Light.woff);
+  }
+  
+  div {
+    font-family: cloud;
+  }
