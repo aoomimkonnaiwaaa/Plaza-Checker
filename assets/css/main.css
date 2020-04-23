@@ -1,25 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  background-color: white;
+@font-face {
+  font-family: cloud;
+  src: url(/statics/font/Cloud-Light.woff);
 }
 
-.footer {
-  bottom: 0;
-  right: 0;
-  left: 0;
-  position: fixed;
-  width: 100%;
-  background-color: #3c9c7d;
+div {
+  font-family: cloud;
 }
-
-.header {
-  /* display: block; */
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-

@@ -62,4 +62,12 @@
   align-items: center;
   
   }
+  @font-face {
+    font-family: cloud;
+    src: url(/statics/font/Cloud-Light.woff);
+  }
+  
+  div {
+    font-family: cloud;
+  }
   
