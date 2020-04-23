@@ -74,7 +74,7 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 380px;
   position: relative;
-  bottom: -10px;
+  bottom: 2px;
   margin: auto;
 }
 .alldot{
