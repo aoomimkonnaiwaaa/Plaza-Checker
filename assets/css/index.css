@@ -2,7 +2,7 @@ html {
     background-color: rgb(255, 255, 255);
   }
 
-  .center{
+  .loader-wrapper {
     padding-top: 320px;
     padding-bottom: 200px;
     padding-right: 80px;
